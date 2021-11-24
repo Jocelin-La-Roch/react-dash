@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../components/Container';
-import Header from '../components/Header';
 import NavBar from '../components/NavBar';
+import SideBar from '../components/SideBar';
 
 class HomePage extends React.Component{
     constructor(props) {
@@ -20,8 +20,8 @@ class HomePage extends React.Component{
                         <div class="loader-fill"></div>
                     </div>
                 </div>
+                <SideBar />
                 <NavBar />
-                <Header />
                 <Container />
             </body>
         )

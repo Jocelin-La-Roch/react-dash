@@ -3838,7 +3838,7 @@ p.text-muted {
 }
 
 /* ====== [ Menu icon end ] ======== */
-/* ====== [ Header color start ] ======== */
+/* ====== [ NavBar color start ] ======== */
 .theme-horizontal ~ .pcoded-header {
   background: #fff;
   -webkit-box-shadow: 0 1px 20px 0 rgba(63, 77, 103, 0.15);
@@ -4285,7 +4285,7 @@ p.text-muted {
   -webkit-text-fill-color: unset;
 }
 
-/* ====== [ Header color end ] ======== */
+/* ====== [ NavBar color end ] ======== */
 /* ====== [ Brand color start ] ======== */
 .pcoded-navbar[class*="brand-"]:not(.brand-default) .mobile-menu span,
 .pcoded-navbar[class*="brand-"]:not(.brand-default) .mobile-menu span:after,
@@ -4815,7 +4815,7 @@ body.box-layout .pcoded-navbar.theme-horizontal ~ .pcoded-header {
 }
 
 /* ====== [ Box end ] ======== */
-/* ====== [ Header Fixed start ] ======== */
+/* ====== [ NavBar Fixed start ] ======== */
 .pcoded-header.headerpos-fixed {
   position: fixed;
   top: 0;
@@ -4829,7 +4829,7 @@ body.box-layout .pcoded-navbar.theme-horizontal ~ .pcoded-header {
   }
 }
 
-/* ====== [Header Fixed  end ] ======== */
+/* ====== [NavBar Fixed  end ] ======== */
 /* ====== [ Dropdown icon start ] ======== */
 .pcoded-navbar.drp-icon-style2 .pcoded-inner-navbar li.pcoded-hasmenu > a:after {
   content: "\e847";
